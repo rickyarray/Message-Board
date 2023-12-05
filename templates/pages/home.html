@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+
+{% block title %}Posts{% endblock title %}
+
+{% block content %}
+<h1>Welcome to DataHub</h1>
+<p> Here you can scrape through our numerous amount of posts pertaining to a surplus of topics from software, to analytics, to just about anything you can think of</p>
+<br>
+<h2>Here is how it works</h2>
+<ol>
+    <li>Click on lists and then choose from the catagorized topics you want to learn about</li>
+    <li>If you would like to add to our posts, simply select <a href=""{% url 'new' %}>NEW</a> our navigation bar</li>
+</ol>
+{% endblock content %}
